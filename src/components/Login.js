@@ -27,12 +27,11 @@ class Login extends Component{
 
     render(){
         return(
-            <View style={styles.container}>
+            <View >
                 <ToolbarAndroid
-                        style={styles.toolbar}
+                        style={{ height: 35, backgroundColor: 'black'}}
                         title='Login'
-                    
-                        titleColor={'#FFFFFF'}/>
+                        titleColor={'#FFF'}/>
 
                 <Text style={styles.loginTitle}>HACKATON 2016 - LOGIN</Text>
 
