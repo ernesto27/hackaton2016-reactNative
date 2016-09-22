@@ -14,6 +14,11 @@ Ingresar dentro de la carpeta del repositorio e instalar dependencias
 npm install
 ```
 
+Correr este comando para linkear librerias
+```sh
+react-native link react-native-camera
+```
+
 Agregar dentro de la carpeta android un nuevo archivo llamado  local.properties  que tendra la ruta del SDK de android 
 
 ```sh
